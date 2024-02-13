@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(158, 248, 139);
+  width: 100vw;
+  height: 100vh;
+}
+.hehe {
+  display: flex;
+  background-color: white;
+  width: 350px;
+  height: 100px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+.hehe:hover {
+  background-color: black;
+  color: white;
+}
+.IMG {
+  width: 100vw;
+  height: 100vh;
+}
+.sos {
+  display: flex;
+  background-color: pink;
+  width: 450px;
+  height: 200px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  flex-direction: column;
+}
+.sos:hover {
+  background-color: red;
+  color: rgb(158, 248, 139);
+}
